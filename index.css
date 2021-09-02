@@ -1,0 +1,40 @@
+/*@import "compass/css3"; */
+
+*{
+  text-align: center;
+}
+
+header {
+ position: fixed;
+ top: 0;
+ left: 0;
+ height: 100px;
+ padding-top: 10px;
+ width: 100%;
+ background: black;
+ color: white;
+ opacity: 1;
+
+ header.scrolled {
+   opacity: 0;
+/*   transition: all 1s ease; */
+
+
+   &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+#Fade{
+  opacity: 1;
+}
+
+header p{
+  margin-top: 5px;
+}
+
+p {
+ margin-top: 130px;
+
+}
